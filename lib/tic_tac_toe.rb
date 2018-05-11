@@ -8,6 +8,8 @@
       puts " #{board[6]} | #{board[7]} | #{board[8]} "
     end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
     WIN_COMBINATIONS = [
     [0, 1, 2], # Top row
     [3, 4, 5], # Middle row
